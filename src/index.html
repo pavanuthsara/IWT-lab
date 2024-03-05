@@ -3,6 +3,10 @@
 	<head>
 		<title>My shopping cart</title>
 		<link rel = "icon" type = "image" href = "./images/shopping-cart.jpg">
+		<script src="js/myScript.js">
+			const date = new Date();
+			document.write(date.toISOString().slice(0, 10));
+		</script>
 		<style>
 			td{
 				font-weight:bold;
@@ -32,7 +36,7 @@
 		
 		<ul class="menu">
 			<li class="menu"><a href="">Home</a></li>
-			<li class="menu"><a href="">News</a></li>
+			<li class="menu"><a href="news.html">News</a></li>
 			<li class="menu"><a href="">Contact</a></li>
 			<li class="menu"><a href="">About<a/></li>
 		</ul>
